@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LabB-codes/eq1.v" \
+"../../../../LabB-codes/eq2.v" \
+"../../../../assignment_1.srcs/sources_1/new/eq6.v" \
+"../../../../../Lab_E/full_adder.v" \
+"../../../../assignment_1.srcs/sources_1/new/fxn_function.v" \
+"../../../../assignment_1.srcs/sources_1/new/greater2.v" \
+"../../../../assignment_1.srcs/sources_1/new/invert.v" \
+"../../../../../Lab_E/Lab_E.srcs/sources_1/new/six_bit_ripple_adder.v" \
+"../../../../assignment_1.srcs/sources_1/new/six_xnor.v" \
+"../../../../assignment_1.srcs/sim_1/new/test_bench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
