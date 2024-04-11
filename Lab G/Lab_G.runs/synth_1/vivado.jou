@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar 28 10:33:40 2024
+# Process ID: 10184
+# Current directory: S:/digital system design/Lab_G/Lab_G.runs/synth_1
+# Command line: vivado.exe -log stop_watch_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source stop_watch_test.tcl
+# Log file: S:/digital system design/Lab_G/Lab_G.runs/synth_1/stop_watch_test.vds
+# Journal file: S:/digital system design/Lab_G/Lab_G.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source stop_watch_test.tcl -notrace
