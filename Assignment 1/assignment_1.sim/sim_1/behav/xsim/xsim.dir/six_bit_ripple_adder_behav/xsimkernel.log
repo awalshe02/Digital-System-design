@@ -1,7 +1,0 @@
-Running: xsim.dir/six_bit_ripple_adder_behav/xsimk.exe -simmode gui -wdb six_bit_ripple_adder_behav.wdb -simrunnum 0 -socket 64439
-Design successfully loaded
-Design Loading Memory Usage: 5956 KB (Peak: 5956 KB)
-Design Loading CPU Usage: 46 ms
-Simulation completed
-Simulation Memory Usage: 6568 KB (Peak: 6568 KB)
-Simulation CPU Usage: 77 ms
