@@ -2,7 +2,8 @@
 module disp_hex_mux
    (
     input wire clk, reset,
-    input wire [19:0] c_count,
+    input wire [3:0] hex3, hex2, hex1, hex0,  // hex digits
+    input wire [3:0] dp_in,             // 4 decimal points
     output reg [3:0] an,  // enable 1-out-of-4 asserted low
     output reg [7:0] sseg // led segments
    );
@@ -34,22 +35,26 @@ module disp_hex_mux
          2'b00:
             begin
                an =  4'b1110;
-               hex_in = c_count[4:0];
+               hex_in = hex0;
+               dp = dp_in[0];
             end
          2'b01:
             begin
                an =  4'b1101;
-               hex_in = c_count[5:9];
+               hex_in = hex1;
+               dp = dp_in[1];
             end
          2'b10:
             begin
                an =  4'b1011;
-               hex_in = c_count[10:14];
+               hex_in = hex2;
+               dp = dp_in[2];
             end
          default:
             begin
                an =  4'b0111;
-               hex_in = c_count[15:19];
+               hex_in = hex3;
+               dp = dp_in[3];
             end
        endcase
 
